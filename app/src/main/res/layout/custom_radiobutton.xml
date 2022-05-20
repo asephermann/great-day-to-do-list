@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_segmented"
+    android:layout_marginTop="24dp"
+    android:layout_marginStart="32dp"
+    android:layout_marginEnd="32dp"
+    android:layout_marginBottom="24dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_task_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:background="@drawable/radiobutton_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/task_list"
+            android:textColor="@drawable/radiobutton_textcolor_selector" />
+
+        <RadioButton
+            android:id="@+id/radio_completed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:background="@drawable/radiobutton_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/completed"
+            android:textColor="@drawable/radiobutton_textcolor_selector" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
